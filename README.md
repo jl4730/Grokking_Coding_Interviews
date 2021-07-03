@@ -12,3 +12,4 @@ We will start with a brief introduction of each pattern before jumping onto the 
 
 # Pattern lists
 ## 1001 Slidding windows
+## 1002 Two pointers
