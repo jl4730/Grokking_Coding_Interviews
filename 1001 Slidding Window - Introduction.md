@@ -38,7 +38,7 @@ Can we find a better solution? Do you see any inefficiency in the above approach
 
 The inefficiency is that for any two consecutive subarrays of size ‘5’, the overlapping part (which will contain four elements) will be evaluated twice. For example, take the above-mentioned input:
 
-![alt text](https://github.com/jl4730/Grokking_Coding_Interviews/tree/main/pics/1001.png?raw=true)
+![alt text](https://github.com/jl4730/Grokking_Coding_Interviews/tree/main/pics/1001.PNG?raw=true)
 
 As you can see, there are four overlapping elements between the subarray (indexed from 0-4) and the subarray (indexed from 1-5). Can we somehow reuse the sum we have calculated for the overlapping elements?
 
