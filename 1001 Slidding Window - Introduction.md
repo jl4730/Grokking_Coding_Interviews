@@ -42,15 +42,13 @@ The inefficiency is that for any two consecutive subarrays of size ‘5’, the 
 
 As you can see, there are four overlapping elements between the subarray (indexed from 0-4) and the subarray (indexed from 1-5). Can we somehow reuse the sum we have calculated for the overlapping elements?
 
-The efficient way to solve this problem would be to visualize each contiguous subarray as a sliding window of ‘5’ elements. This means that we will slide the window by one element when we move on to the next subarray. To reuse the sum from the previous subarray, we will subtract the element going out of the window and add the element now being included in the sliding window. This will save us from going through the whole subarray to find the sum and, as a result, the algorithm complexity will reduce to O(N)O(N).
+The efficient way to solve this problem would be to visualize each contiguous subarray as a sliding window of ‘5’ elements. This means that we will slide the window by one element when we move on to the next subarray. To reuse the sum from the previous subarray, we will subtract the element going out of the window and add the element now being included in the sliding window. This will save us from going through the whole subarray to find the sum and, as a result, the algorithm complexity will reduce to O(N).
+
+![alt text](pics/1002.PNG?raw=true)
 
 Here is the algorithm for the Sliding Window approach:
 
-Java
-Python3
-C++
-JS
-123456789101112131415161718192021
+```
 def find_averages_of_subarrays(K, arr):
   result = []
   windowSum, windowStart = 0.0, 0
@@ -61,13 +59,8 @@ def find_averages_of_subarrays(K, arr):
       result.append(windowSum / K)  # calculate the average
       windowSum -= arr[windowStart]  # subtract the element going out
       windowStart += 1  # slide the window ahead
+```
 
-
-Run
-
-Save
-
-Reset
 In the following chapters, we will apply the Sliding Window approach to solve a few problems.
 
 In some problems, the size of the sliding window is not fixed. We have to expand or shrink the window based on the problem constraints. We will see a few examples of such problems in the next chapters.
