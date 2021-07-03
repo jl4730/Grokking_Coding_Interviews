@@ -10,11 +10,6 @@ Example 2:\
 Input: [2, 3, 4, 1, 5], k=2 
 Output: 7
 Explanation: Subarray with maximum sum is [3, 4].
-```
-def max_sub_array_of_size_k(k, arr):
-  # TODO: Write your code here
-  return -1
-```
 
 Solution\
 A basic brute force solution will be to calculate the sum of all ‘k’ sized subarrays of the given array to find the subarray with the highest sum. We can start from every index of the given array and add the next ‘k’ elements to find the subarray’s sum. Following is the visual representation of this algorithm for Example-1:
