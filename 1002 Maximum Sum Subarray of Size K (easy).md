@@ -16,7 +16,7 @@ A basic brute force solution will be to calculate the sum of all ‘k’ sized s
 
 ![alt text](pics/1003.PNG?raw=true)
 
-Code\
+Code
 ```
 def max_sub_array_of_size_k(k, arr):
   max_sum = 0
