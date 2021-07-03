@@ -13,7 +13,9 @@ Explanation: Subarray with maximum sum is [3, 4].
 
 Solution\
 A basic brute force solution will be to calculate the sum of all ‘k’ sized subarrays of the given array to find the subarray with the highest sum. We can start from every index of the given array and add the next ‘k’ elements to find the subarray’s sum. Following is the visual representation of this algorithm for Example-1:
+
 ![alt text](pics/1003.PNG?raw=true)
+
 Code\
 ```
 def max_sub_array_of_size_k(k, arr):
