@@ -9,3 +9,6 @@ We have chosen each problem carefully such that it not only maps to the same pat
 The problems solved under these patterns use a varied set of algorithmic techniques. We will make use of Breadth-First Search and Depth-First Search to solve problems related to Trees and Graphs. Similarly, we will also cover Dynamic Programming, Backtracking, Recursion, Greedy algorithms, and Divide & Conquer.
 
 We will start with a brief introduction of each pattern before jumping onto the problems. Under each pattern, the first problem will explain the underlying pattern in detail to build the concepts that can be applied to later problems. The later problems will focus on the different constraints each problem presents and how our algorithm needs to change to handle them.
+
+# Pattern lists
+## 1001 Slidding windows
