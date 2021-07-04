@@ -22,7 +22,7 @@ If the fast pointer is one step behind the slow pointer: The fast pointer moves 
 If the fast pointer is two steps behind the slow pointer: The fast pointer moves two steps and the slow pointer moves one step. After the moves, the fast pointer will be one step behind the slow pointer, which reduces this scenario to the first scenario. This means that the two pointers will meet in the next iteration.
 This concludes that the two pointers will definitely meet if the LinkedList has a cycle. A similar analysis can be done where the slow pointer moves first. Here is a visual representation of the above discussion:
 
-![alt text](pics/3003.PNG?raw=true)
+![alt text](pics/3002.PNG?raw=true)
 
 Code \
 Here is what our algorithm will look like:
