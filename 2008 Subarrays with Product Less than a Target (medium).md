@@ -1,4 +1,4 @@
-Problem Statement #
+Problem Statement \
 Given an array with positive numbers and a target number, find all of its contiguous subarrays whose product is less than the target number.
 
 Example 1:
@@ -13,14 +13,14 @@ Input: [8, 2, 6, 5], target=50
 Output: [8], [2], [8, 2], [6], [2, 6], [5], [6, 5] 
 Explanation: There are seven contiguous subarrays whose product is less than the target.
 
-Solution #
+Solution \
 This problem follows the Sliding Window and the Two Pointers pattern and shares similarities with Triplets with Smaller Sum with two differences:
 
 In this problem, the input array is not sorted.
 Instead of finding triplets with sum less than a target, we need to find all subarrays having a product less than the target.
 The implementation will be quite similar to Triplets with Smaller Sum.
 
-Code #
+Code \
 Here is what our algorithm will look like:
 
 ```
@@ -54,10 +54,10 @@ def main():
 main()
 ```
 
-Time complexity #
+Time complexity \
 The main for-loop managing the sliding window takes O(N) but creating subarrays can take up to O(N^2) in the worst case. Therefore overall, our algorithm will take O(N^3).
 
-Space complexity #
+Space complexity \
 Ignoring the space required for the output list, the algorithm runs in O(N) space which is used for the temp list.
 
 Can you try estimating how much space will be required for the output list?
