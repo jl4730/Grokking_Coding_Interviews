@@ -40,9 +40,9 @@ Step 1: Sorting these meetings on their start time will give us: [[2,3], [2,4], 
 
 Step 2: Merging overlapping meetings:
 
-*[2,3] overlaps with [2,4], so after merging we’ll have => [[2,4], [3,5], [4,5]]
-*[2,4] overlaps with [3,5], so after merging we’ll have => [[2,5], [4,5]]
-*[2,5] overlaps [4,5], so after merging we’ll have => [2,5]
+* [2,3] overlaps with [2,4], so after merging we’ll have => [[2,4], [3,5], [4,5]]
+* [2,4] overlaps with [3,5], so after merging we’ll have => [[2,5], [4,5]]
+* [2,5] overlaps [4,5], so after merging we’ll have => [2,5]
 
 Since all the given meetings have merged into one big meeting ([2,5]), does this mean that they all are overlapping and we need a minimum of four rooms to hold these meetings? You might have already guessed that the answer is NO! As we can clearly see, some meetings are mutually exclusive. For example, [2,3] and [3,5] do not overlap and can happen in one room. So, to correctly solve our problem, we need to keep track of the mutual exclusiveness of the overlapping meetings.
 
