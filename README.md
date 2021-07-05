@@ -11,11 +11,13 @@ The problems solved under these patterns use a varied set of algorithmic techniq
 We will start with a brief introduction of each pattern before jumping onto the problems. Under each pattern, the first problem will explain the underlying pattern in detail to build the concepts that can be applied to later problems. The later problems will focus on the different constraints each problem presents and how our algorithm needs to change to handle them.
 
 # Pattern lists
-## 1001 Slidding windows
-## 1002 Two pointers
-## 1003 Fast & Slow pointers
-## 1004 Merge intervals
-## 1005 Cyclic sort
-## 1006 In-place Reversal of a LinkedList
-## 1007 Breadth First Search (BFS)
-## 1008 Depth First Search (DFS)
+## 01 Slidding windows
+## 02 Two pointers
+## 03 Fast & Slow pointers
+## 04 Merge intervals
+## 05 Cyclic sort
+## 06 In-place Reversal of a LinkedList
+## 07 Breadth First Search (BFS)
+## 08 Depth First Search (DFS)
+## 09 Two Heaps
+## 10 Subsets
