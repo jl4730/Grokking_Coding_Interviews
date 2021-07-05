@@ -17,3 +17,4 @@ We will start with a brief introduction of each pattern before jumping onto the 
 ## 1004 Merge intervals
 ## 1005 Cyclic sort
 ## 1006 In-place Reversal of a LinkedList
+## 1007 Breadth First Search (BFS)
