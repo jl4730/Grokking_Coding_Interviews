@@ -21,3 +21,5 @@ We will start with a brief introduction of each pattern before jumping onto the 
 ## 08 Depth First Search (DFS)
 ## 09 Two Heaps
 ## 10 Subsets
+## 11 Modified Binary Search
+## 12 Bitwise XOR
