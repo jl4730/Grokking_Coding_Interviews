@@ -34,6 +34,6 @@ If you are looking for a similar pattern-based approach to solve Dynamic Program
 
 Here are a couple of other courses for design interviews:
 
-[Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview?aff=VOY6)
-[Grokking the Advanced System Design Interview](https://www.educative.io/courses/grokking-adv-system-design-intvw?aff=VOY6)
-[Grokking the Object Oriented Design Interview](https://www.educative.io/courses/grokking-the-object-oriented-design-interview?aff=VOY6)
+1. [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview?aff=VOY6)
+2. [Grokking the Advanced System Design Interview](https://www.educative.io/courses/grokking-adv-system-design-intvw?aff=VOY6)
+3. [Grokking the Object Oriented Design Interview](https://www.educative.io/courses/grokking-the-object-oriented-design-interview?aff=VOY6)
