@@ -23,3 +23,17 @@ We will start with a brief introduction of each pattern before jumping onto the 
 ## 10 Subsets
 ## 11 Modified Binary Search
 ## 12 Bitwise XOR
+## 13 Top ‘K’ elements
+## 14 K-way merge
+## 15 0/1 Knapsack (Dynamic Programming)
+## 16 Topological Sort (Graph)
+## 17 Kth Smallest Number (hard)
+
+# Other courses
+If you are looking for a similar pattern-based approach to solve Dynamic Programming problems, take a look at [Grokking Dynamic Programming Patterns for Coding Interviews](https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews?aff=VOY6).
+
+Here are a couple of other courses for design interviews:
+
+[Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview?aff=VOY6)
+[Grokking the Advanced System Design Interview](https://www.educative.io/courses/grokking-adv-system-design-intvw?aff=VOY6)
+[Grokking the Object Oriented Design Interview](https://www.educative.io/courses/grokking-the-object-oriented-design-interview?aff=VOY6)
